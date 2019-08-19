@@ -174,7 +174,7 @@ public class SlimefunStartup extends JavaPlugin {
 			}
 			else {
 				// If we are using a development build, we want to switch to our custom 
-				updater = new GitHubBuildsUpdater(this, getFile(), "TheBusyBiscuit/Slimefun4/master");
+				updater = new GitHubBuildsUpdater(this, getFile(), "Albiciade/Slimefun4/master");
 			}
 			
 			if (config.getBoolean("options.auto-update")) updater.start();
